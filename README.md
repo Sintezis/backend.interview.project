@@ -55,7 +55,7 @@ Response:
 ### Fourth step
 
 * The implementation of the `GetItinerary` [method](https://developers.google.com/protocol-buffers/docs/proto3#services) will accept the `Request` as an input parameter. Then it will pass it to another function, let's call it `ConstructItinerary`.
-* The function `ConstructItinerary` accepts the `Location` message as an input param and returns a list of possible `Locations` (Checkout ConstructItinerary details for more information)
+* The function `ConstructItinerary` accepts the `Location` message as an input parameter and returns a list of possible `Locations` (Checkout ConstructItinerary details for more information)
 * When `Location` is found stream it back to the `Client Service` and continue with the process
 * Push the project to the git repo with simple README explaining how to build the project and use it.
 
