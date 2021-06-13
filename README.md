@@ -82,7 +82,7 @@ Use this as a hardcoded list of departure and destination locations to search fr
 
 Rules:
 
-* The flights in the same array can go in both directions e.g. let's look at `["FRA", "LON"]`, her the trips can be constructed as: FRA to LON and, LON to FRA.
+* The flights in the same array can go in both directions e.g. let's look at `["FRA", "LON"]`, here the trips can be constructed as FRA to LON and, LON to FRA.
 * The same item can't be reused more than one time in one sequence
 
 Example input:
