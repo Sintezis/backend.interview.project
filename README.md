@@ -76,6 +76,17 @@ Use this as a hardcoded list of departure and destination locations to search fr
   ["ZAG", "AMS"],
   ["ZAG", "PAR"],
   ["PAR", "LON"],
+  ["BER", "FRA"],
+  ["BUH", "BER"],
+  ["BUH", "MIL"],
+  ["MOW", "OSL"],
+  ["STO", "ROM"],
+  ["ROM", "PAR"],
+  ["AMS", "MOW"],
+  ["BER", "LON"],
+  ["LAX", "LON"],
+  ["NYC", "LAX"],
+  ["BER", "ROM"],
 ]
 
 ```
