@@ -52,7 +52,7 @@ Response:
 * `Client Service` will initialize the `Request` and send it to `Server Service`, then the `Server Service` will stream the data back to the `Client Service`
 * `Client Service` will output the data to the console (As soon as one item is received from the stream output it in real-time)
 
-### Fourth step
+### Third step
 
 * The implementation of the `GetItinerary` [method](https://developers.google.com/protocol-buffers/docs/proto3#services) will accept the `Request` as an input parameter. Then it will pass it to another function, let's call it `ConstructItinerary`.
 * The function `ConstructItinerary` accepts the `Location` message as an input parameter and returns a list of possible `Locations` (Checkout ConstructItinerary details for more information)
